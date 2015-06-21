@@ -1,0 +1,1 @@
+{"db":{"name":"db","connector":"memory"},"mongolab":{"url":"mongodb://test:test@ds047632.mongolab.com:47632/bikeatory","name":"mongolab","connector":"mongodb"}}

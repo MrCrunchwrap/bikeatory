@@ -1,0 +1,1 @@
+{"name":"Component","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"brand":{"type":"string"},"type":{"type":"string"},"description":{"type":"string"}},"validations":[],"relations":{},"acls":[],"methods":[]}

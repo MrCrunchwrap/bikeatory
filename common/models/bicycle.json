@@ -1,0 +1,37 @@
+{
+	"name": "Bicycle",
+	"base": "PersistedModel",
+	"idInjection": true,
+	"options": {
+		"validateUpsert": true
+	},
+	"properties": {
+		"dateAcquired": {
+			"type": "date"
+		},
+		"description": {
+			"type": "string"
+		},
+		"type": {
+			"type": "string"
+		},
+		"weight": {
+			"type": "number"
+		}
+	},
+	"validations": [],
+	"relations": {
+		"user": {
+			"type": "belongsTo",
+			"model": "User",
+			"foreignKey": "userId"
+		},
+		"components": {
+			"type": "hasMany",
+			"model": "Component",
+			"foreignKey": "componentId"
+		}
+	},
+	"acls": [],
+	"methods": []
+}
